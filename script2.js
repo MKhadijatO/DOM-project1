@@ -55,19 +55,27 @@
 //HOW TO TRAVERSE THE DOM
 
 //Parent Node Traversal (traverse upward in the DOM tree)
-let ul = document.querySelector('ul');
+// let ul = document.querySelector('ul');
 
-console.log(ul.parentNode) // returns parent node "div"
-console.log(ul.parentElement)//returns parent element "div"
-console.log(ul.parentNode.parentNode);// returns grand parent node "body"
-console.log(ul.parentElement.parentElement); // returns grand parent element "body"
+// console.log(ul.parentNode) // returns parent node "div"
+// console.log(ul.parentElement)//returns parent element "div"
 
-const html = document.documentElement
-console.log(html.parentNode); //mostly correct parentNode
-console.log(html.parentElement); //return null
+
+// console.log(ul.parentNode.parentNode);// returns grand parent node "body"
+// console.log(ul.parentElement.parentElement); // returns grand parent element "body"
+
+// const html = document.documentElement
+// console.log(html.parentNode); //mostly correct parentNode
+// console.log(html.parentElement); //return null
 
 //child Node Traversal
 
+let ul = document.querySelector('ul');
+console.log(ul.childNodes);
+console.log(ul.firstChild);
+console.log(ul.lastChild);
+
+ul.childNodes[9].style.backgroundColor = "pink";
 
 
 //Sibling Node Traversal
