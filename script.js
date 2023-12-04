@@ -6,13 +6,13 @@ console.log(title);
 
 
 //GetElementByClassName()
-// const listItems = document.getElementsByClassName('list-items');
-// console.log(listItems);
+const listItem = document.getElementsByClassName('list-items');
+console.log(listItem);
 
 //GetElementByTagName()
 
-const listItems = document.getElementsByTagName('li');
-console.log(listItems);
+const list= document.getElementsByTagName('li');
+console.log(list);
 
 //querySelector()
 const container = document.querySelector('div');
