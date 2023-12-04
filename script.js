@@ -18,9 +18,7 @@ console.log(list);
 const container = document.querySelector('div');
 console.log(container);
 
-const li = document.querySelector('div');
-console.log(li);
 
 //querySelectorAll()
-const liS = document.querySelectorAll('li');
+const liS = document.querySelectorAll('.list-items');
 console.log(liS);
