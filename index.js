@@ -13,9 +13,10 @@ Anytime a website perform an action, submit form, error banner, open a link etc*
 //querySelector()
 //querySelectorAll()*/
 
-
-
-
 // How to traverse the DOM
+
+
+
+
 // How to manipulate the DOM
 // Event Handling

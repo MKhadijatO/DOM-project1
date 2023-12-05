@@ -1,4 +1,4 @@
-//DOM MANIPULATION
+//DOM MANIPULATION METHODS
 
 //GetElementById()
 const title = document.getElementById('main-heading');

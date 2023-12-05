@@ -71,11 +71,14 @@
 //child Node Traversal
 
 let ul = document.querySelector('ul');
-console.log(ul.childNodes);
-console.log(ul.firstChild);
-console.log(ul.lastChild);
+// console.log(ul.childNodes); // counts the indentation as nodes
+// console.log(ul.firstChild);
+// console.log(ul.lastChild);
+// ul.childNodes[9].style.backgroundColor = "pink"; //targets the last child
 
-ul.childNodes[9].style.backgroundColor = "pink";
+console.log(ul.children); // doesnt count indentation as nodes/children
+console.log(ul.firstElementChild);
+console.log(ul.lastElementChild);
+ul.children[4].style.backgroundColor = "pink"; //targets the last child
 
-
-//Sibling Node Traversal
+//Sibling Node Traversal 
