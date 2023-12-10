@@ -6,7 +6,7 @@
 body {
     height: 100vh;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: red;
+    background-color: #122bb9;
     background-image: linear-gradient(to bottom right, #190280, #122bb9);
     color: #ffffff;
     font-size: 16px;
@@ -16,6 +16,7 @@ body {
 }
 
 #main-heading {
+    color: #ffa600;
     font-weight: bold;
     font-size: 32px;
     padding: 50px;
@@ -31,7 +32,8 @@ div .boxes {
     border:1px solid #ffffff;
     border-radius: 10px;
     padding: 20px;
-    height: 200px;
+    width: 200px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -41,14 +43,18 @@ div .boxes {
 }
 
 h2{
+    font-size: 32px;
     padding-top: 30px;
 }
 
 button {
-    padding: 10px 20px;
+    width: 120px;
+    padding: 12px 30px;
     font-size: 16px !important;
     font-weight: bold;
     border:1px solid #333333;
     border-radius: 10px;
     margin-bottom: 25px;
+    color: #1c1d22;
+    background-color: #ffa600;
 }
