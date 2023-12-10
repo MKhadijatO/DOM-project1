@@ -85,7 +85,6 @@
 
 let ul = document.querySelector('ul');
 
-
 console.log(ul.previousSibling); //returns text nodes because it yses the childNodes principle of counting indentation as nodes
 console.log(ul.nextSibling); //returns text nodes ,,    ,,    ,,
 
