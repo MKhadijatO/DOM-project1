@@ -25,24 +25,30 @@ body {
 #container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 div .boxes {
     border:1px solid #ffffff;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px;
     height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-left: 100px ;
+    margin: 0 50px ;
 
 }
 
 h2{
-    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
+button {
+    padding: 10px 20px;
+    font-size: 16px !important;
+    font-weight: bold;
+    border:1px solid #333333;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
