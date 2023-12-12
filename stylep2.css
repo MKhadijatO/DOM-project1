@@ -6,7 +6,7 @@
 body {
     height: 100vh;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #122bb9;
+    background-color: #edeef7;
     background-image: linear-gradient(to bottom right, #190280, #122bb9);
     color: #ffffff;
     font-size: 16px;
@@ -29,6 +29,7 @@ body {
 }
 
 div .boxes {
+    /* background-color: #190280 ; */
     border:1px solid #ffffff;
     border-radius: 10px;
     padding: 20px;
@@ -50,7 +51,7 @@ h2{
 button {
     width: 120px;
     padding: 12px 30px;
-    font-size: 16px !important;
+    font-size: 20px;
     font-weight: bold;
     border:1px solid #333333;
     border-radius: 10px;
