@@ -17,7 +17,7 @@ function color() {
 }
 
 boxOne.addEventListener('mouseover', changeBackground);
-boxOne.addEventListener('mouseout', color);
+boxOne.addEventListener('mouseout', color); // how do I return to the original color
 
 
 const btn3 = document.querySelector('.btn-3');
