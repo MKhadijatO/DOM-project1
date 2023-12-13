@@ -2,7 +2,9 @@
 
 // EVENTS
 
-const button = document.querySelector('.reveal-button');
+const revealButton = document.querySelector('.reveal-button');
+
+
 
 const hiddenContent = document.querySelector('.box');
 
@@ -11,7 +13,15 @@ function revealContent () {
         hiddenContent.classList.remove('reveal-button');
     } else {
         hiddenContent.classList.add('reveal-button');
+        const newWidth = revealButton.style.width = '200px';
+        return newWidth;
     }
 }
 
-button.addEventListener('click', revealContent)
+revealButton.addEventListener('click', revealContent)
+
+// function returnWidth(newWidth === '200px') {
+//     revealContent
+// }
+
+// revealButton.addEventListener('click', )
