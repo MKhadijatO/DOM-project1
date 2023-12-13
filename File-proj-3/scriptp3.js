@@ -20,8 +20,10 @@ function revealContent () {
 
 revealButton.addEventListener('click', revealContent)
 
-// function returnWidth(newWidth === '200px') {
-//     revealContent
+// function returnWidth() {
+//     if (newWidth == '200px') {
+//         return revealButton.style.width = '500px';
+//     }
 // }
 
-// revealButton.addEventListener('click', )
+// revealButton.addEventListener('click', returnWidth)
