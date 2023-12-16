@@ -7,6 +7,7 @@ document.addEventListener('click', function() {
 }, false);
 
 document.querySelector('.div2').addEventListener('click', function() {
+    e.stopPropagation();
     console.log('DIV 2');
 }, false);
 
