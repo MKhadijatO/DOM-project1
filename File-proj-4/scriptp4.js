@@ -15,5 +15,5 @@ document.querySelector('.div1').addEventListener('click', function() {
 }, true);
 
 document.querySelector('button').addEventListener('click', function (e) {
-    console.log(e.target);
+    console.log(e.target.innerText='Clicked!');
 }, true);
