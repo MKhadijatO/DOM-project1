@@ -1,20 +1,20 @@
 window.addEventListener('click', function() {
     console.log('Window');
-}, false);
+}, true);
 
 document.addEventListener('click', function() {
     console.log('Document');
-}, false);
+}, true);
 
 document.querySelector('.div2').addEventListener('click', function() {
-    e.stopPropagation();
+    // e.stopPropagation();
     console.log('DIV 2');
-}, false);
+}, {once: true});
 
 document.querySelector('.div1').addEventListener('click', function() {
     console.log('DIV 1');
-}, false);
+}, true);
 
 document.querySelector('button').addEventListener('click', function (e) {
     console.log(e.target.innerText='Clicked!');
-}, false);
+}, true);
