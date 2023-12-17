@@ -74,6 +74,10 @@ document.querySelector('#access').addEventListener('click', function (e) {
     } 
 });*/
 
+//******EVENT DELEGATION********/
+/* It allows users to append a single event listener 
+to a parent element that adds it to all its present 
+and future descendants that match a selector*/
 
 document.querySelector('#office').addEventListener
 ('click', function (e) {
