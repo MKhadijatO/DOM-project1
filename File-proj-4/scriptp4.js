@@ -1,3 +1,6 @@
+//DOM MANIPULATION
+
+
 window.addEventListener('click', function() {
     console.log('Window');
 }, false);
